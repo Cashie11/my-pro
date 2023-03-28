@@ -1,0 +1,44 @@
+body::before {
+    display: block;
+    content: " ";
+    height: 60px;
+}
+
+
+@media(min-width:768px) {
+    .news{
+        width:50%;
+    }
+
+    .hmmm{
+        width:50%;
+    }
+
+    .sww{
+        width:50%;
+    }
+
+}
+
+
+
+.me a{
+    margin-bottom: 5px;
+    background-color: blue;
+    border: 2px solid #6880e7;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.me a:hover{
+    background: transparent;
+    border: 2px solid #212121;
+    color: #6880e7;
+    transition: .4s;
+}
+
+.col img{
+
+    width: 300px;
+}
